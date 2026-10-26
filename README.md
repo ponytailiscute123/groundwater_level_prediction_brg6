@@ -37,6 +37,7 @@ The dataset is used for an educational and analytical project. Please refer to t
 # Applications
 This project demonstrates an introductory workflow for applying data analysis and machine learning to groundwater monitoring, with potential relevance to hydrogeology, environmental data analysis, and water-resource management.
 
-Author
+# Author
 Haya Nidaan Khofyya
+
 Geological Engineering | Hydrogeology & Environmental Data Analysis
