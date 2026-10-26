@@ -2,7 +2,6 @@
 A self-directed machine learning project exploring groundwater-level prediction using historical monitoring data from the BRG6 peatland site in Indonesia.
 # Project Overview
 Groundwater-level monitoring is important for understanding hydrological changes and supporting water-resource management. This project explores the use of time-series data and machine learning techniques to estimate subsequent groundwater levels.
-
 The project compares a Linear Regression model with a Naive Baseline to investigate their predictive performance.
 # Objectives
 1. Explore historical groundwater-level monitoring data.
@@ -29,6 +28,9 @@ The dataset is used for an educational and analytical project. Please refer to t
 5. Linear Regression modelling
 6. Comparison with a Naive Baseline
 7. Visualization of actual and predicted groundwater levels
+# Results
+The models were evaluated using time-based validation and a final test set to compare their performance in predicting groundwater levels at the BRG6 monitoring site. During time-based validation, Linear Regression achieved a mean absolute error (MAE) of 0.0212 m, compared with 0.0216 m for the Naive Baseline. However, the Naive Baseline achieved slightly lower RMSE and a higher average R².
+On the final test set, the Naive Baseline outperformed Linear Regression, achieving an MAE of 0.0161 m, an RMSE of 0.0282 m, and an R² of 0.9857. Linear Regression achieved an MAE of 0.0204 m, an RMSE of 0.0309 m, and an R² of 0.9828. These results demonstrate that a simple baseline can perform competitively with a machine learning model for this dataset. Further evaluation is needed to determine how well these findings generalize to other monitoring periods and locations.
 # Limitations
 1. The analysis focuses on a single monitoring site.
 2. Predictive performance may vary under different hydrological conditions.
