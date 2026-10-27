@@ -35,7 +35,7 @@ On the final test set, the Naive Baseline outperformed Linear Regression, achiev
 1. The analysis focuses on a single monitoring site.
 2. Predictive performance may vary under different hydrological conditions.
 3. Further evaluation is required before applying the approach to operational groundwater forecasting.
-4. The prediction horizon should be explicitly confirmed from the notebook before interpreting the results as daily or multi-day forecasts.
+4. The prediction horizon should be explicitly confirmed from the notebook before interpreting the results as daily or multiday forecasts.
 # Applications
 This project demonstrates an introductory workflow for applying data analysis and machine learning to groundwater monitoring, with potential relevance to hydrogeology, environmental data analysis, and water-resource management.
 
